@@ -3,6 +3,8 @@
   "resourceVersion": "1.6",
   "name": "final project leo andrea",
   "resources": [
+    {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"order":0,},
+    {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -15,7 +17,7 @@
     {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
