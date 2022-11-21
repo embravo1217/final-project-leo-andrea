@@ -4,22 +4,22 @@ hspeed = 0;
 
 if global.playerPause == false {
     //movement up, down, left, and right respectively, plus collision with the wall object
-    if (keyboard_check(ord(vk_up))) {
+    if (keyboard_check(vk_up)) {
         vspeed = -playerspeed;
         //sprite_index = spr_playerwalkback;
         //image_xscale = 1;
     }
-    if (keyboard_check(ord(vk_down))) {
+    if (keyboard_check(vk_down)) {
         vspeed = playerspeed;
         //sprite_index = spr_playerwalkfront;
         //image_xscale = 1;
     }
-    if (keyboard_check(ord(vk_left))) {
+    if (keyboard_check(vk_left)) {
         hspeed = -playerspeed;
         //sprite_index = spr_playerwalkfleft;
         //image_xscale = 1;
     }
-    if (keyboard_check(ord(vk_right))) {
+    if (keyboard_check(vk_right)) {
         hspeed = playerspeed;
         //sprite_index = spr_playerwalkfright;
         //image_xscale = 1;
