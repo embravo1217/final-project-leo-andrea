@@ -2,6 +2,21 @@
 vspeed = 0;
 hspeed = 0;
 
+//storing x and y of this object
+global.player1_x = x;
+global.player1_y = y;
+
+//picking up object (wip code)
+if(collision_circle(x,y,20,obj_object,false,false)){
+	//show_debug_message("close to npc");
+	if(keyboard_check_pressed(ord(" "))){
+		show_debug_message("press space check");
+		obj_object.x = global.player1_x; 
+		obj_object.y = global.player1_y - 10;
+	}
+}
+
+
 if global.playerPause == false {
     //movement up, down, left, and right respectively, plus collision with the wall object
     if (keyboard_check(ord("W"))) {
