@@ -7,13 +7,16 @@ global.player1_x = x;
 global.player1_y = y;
 
 //picking up object (wip code)
-if(collision_circle(x,y,20,obj_object,false,false)){
-	//show_debug_message("close to npc");
-	if(keyboard_check(vk_space)){
-		//show_debug_message("press space check");
-		obj_picked_up = true;
+if(collision_circle(x,y,20,obj_object,false,false) and (obj_picked_up == false) and (keyboard_check_pressed(vk_space))){
+	obj_picked_up = true;
+	}
+else{
+	if((obj_picked_up) and (keyboard_check_pressed(vk_space))){
+		obj_object.y = global.player1_y + 20;
+		obj_picked_up = false;
 	}
 }
+
 if(obj_picked_up == true){
 	obj_object.x = global.player1_x + 10; 
 	obj_object.y = global.player1_y - 10;
@@ -21,10 +24,6 @@ if(obj_picked_up == true){
 
 //placing item down. will write depending where player faces after spriting
 //code physics later?
-//if((obj_picked_up) and (keyboard_check(vk_space))){
-//	obj_object.y = global.player1_y + 20;
-//	obj_picked_up = false;
-//}
 
 if global.playerPause == false {
     //movement up, down, left, and right respectively, plus collision with the wall object
