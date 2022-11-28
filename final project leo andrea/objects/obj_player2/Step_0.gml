@@ -2,6 +2,27 @@
 vspeed = 0;
 hspeed = 0;
 
+//storing x and y of this object
+global.player2_x = x;
+global.player2_y = y;
+
+
+//picking up object (wip code)
+if(collision_circle(x,y,20,obj_object,false,false) and (obj_picked_up2 == false) and (keyboard_check_pressed(vk_space))){
+	obj_picked_up2 = true;
+	}
+else{
+	if((obj_picked_up2) and (keyboard_check_pressed(vk_space))){
+		obj_object.y = global.player2_y + 20;
+		obj_picked_up2 = false;
+	}
+}
+
+if(obj_picked_up2 == true){
+	obj_object.x = global.player2_x + 10; 
+	obj_object.y = global.player2_y - 10;
+}
+
 if global.playerPause == false {
     //movement up, down, left, and right respectively, plus collision with the wall object
     if (keyboard_check(vk_up)) {
