@@ -14,7 +14,7 @@ else{
 	if((obj_picked_up) and (keyboard_check_pressed(vk_space))){
 		obj_object.y = global.player1_y + 20;
 		obj_picked_up = false;
-	}
+	} 
 }
 
 if(obj_picked_up == true){
