@@ -17,10 +17,10 @@ else{global.platepressed = false;}
 if(global.platepressed){
 	global.walldown = true;
 	sprite_index = spr_pressureplate_down;
-	if !audio_is_playing(sd_plate)
+	/*if !audio_is_playing(sd_plate)
 		{
 		audio_play_sound(sd_plate,1,false);
-	}
+	}*/
 }
 
 else{
