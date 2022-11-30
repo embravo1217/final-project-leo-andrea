@@ -25,6 +25,6 @@ if(global.platepressed){
 
 else{
 	sprite_index = spr_pressureplate;
-	instance_activate_object(obj_wall);
+	instance_activate_object(obj_gate);
 	global.walldown = false; 
 }

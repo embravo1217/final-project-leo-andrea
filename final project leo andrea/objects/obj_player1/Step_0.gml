@@ -11,7 +11,7 @@ global.player1_x = x;
 global.player1_y = y;
 
 //picking up object (wip code)
-if(collision_circle(x,y,20,obj_object,false,false) and (obj_picked_up == false) and (keyboard_check_pressed(vk_space))){
+if(collision_circle(x,y,130,obj_object,false,false) and (obj_picked_up == false) and (keyboard_check_pressed(vk_space))){
 	obj_picked_up = true;
 	}
 else{
