@@ -1,4 +1,6 @@
-global.collision_player1 = false;
-global.collision_player2 = false;
+global.tilepress_player1 = false;
+global.tilepress_player2 = false;
 
-//global.dooropen = false;
+global.dooropen = false;
+
+soundplay = false;

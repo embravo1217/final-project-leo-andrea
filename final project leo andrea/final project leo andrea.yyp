@@ -4,6 +4,7 @@
   "name": "final project leo andrea",
   "resources": [
     {"id":{"name":"obj_doortile1","path":"objects/obj_doortile1/obj_doortile1.yy",},"order":10,},
+    {"id":{"name":"obj_doortile2","path":"objects/obj_doortile2/obj_doortile2.yy",},"order":16,},
     {"id":{"name":"obj_gate","path":"objects/obj_gate/obj_gate.yy",},"order":13,},
     {"id":{"name":"spr_pressureplate_down","path":"sprites/spr_pressureplate_down/spr_pressureplate_down.yy",},"order":8,},
     {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},"order":10,},
