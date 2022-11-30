@@ -2,6 +2,10 @@
 vspeed = 0;
 hspeed = 0;
 
+var prev_x = x;
+var prev_y = y;
+
+
 //storing x and y of this object
 global.player1_x = x;
 global.player1_y = y;
@@ -24,6 +28,14 @@ if(obj_picked_up == true){
 
 //placing item down. will write depending where player faces after spriting
 //code physics later?
+
+
+//you cannot pass thru walls with this code
+//if(place_meeting(x,y,obj_wall)){
+//	//show_debug_message("hit wall");
+//	x = prev_x;
+//	y = prev_y;
+//}
 
 if global.playerPause == false {
     //movement up, down, left, and right respectively, plus collision with the wall object

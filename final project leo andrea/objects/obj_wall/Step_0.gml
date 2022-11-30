@@ -5,3 +5,4 @@ if (global.walldown){
 //if(global.walldown == false){
 //	instance_activate_object(obj_wall)
 //}
+
