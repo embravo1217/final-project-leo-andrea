@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_player1_1",
-  "spriteId": {
-    "name": "spr_player1_1",
-    "path": "sprites/spr_player1_1/spr_player1_1.yy",
-  },
+  "name": "obj_door",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
