@@ -1,0 +1,1 @@
+global.walldown = false;
