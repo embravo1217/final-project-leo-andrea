@@ -1,7 +1,7 @@
 //instance_activate_object(obj_pressureplate);
 
 //if player collides with plate
-if((place_meeting(x,y,obj_player1)) or (place_meeting(x,y,obj_player2))){
+if((place_meeting(x,y+5,obj_player1)) or (place_meeting(x,y,obj_player2))){
 	global.platepressed = true;
 }
 else if(place_meeting(x,y,obj_object)){
