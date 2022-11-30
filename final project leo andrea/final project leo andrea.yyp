@@ -25,6 +25,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":3,},
     {"id":{"name":"obj_player1_1","path":"objects/obj_player1_1/obj_player1_1.yy",},"order":5,},
     {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},"order":0,},
+    {"id":{"name":"sd_plate","path":"sounds/sd_plate/sd_plate.yy",},"order":5,},
     {"id":{"name":"sound_walk","path":"sounds/sound_walk/sound_walk.yy",},"order":3,},
     {"id":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},"order":3,},
     {"id":{"name":"spr_object_placeholder_1","path":"sprites/spr_object_placeholder_1/spr_object_placeholder_1.yy",},"order":5,},
