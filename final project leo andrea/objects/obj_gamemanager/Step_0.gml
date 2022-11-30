@@ -1,4 +1,4 @@
-if (global.tilepress_player1 = true && global.tilepress_player2 = true){
+if (global.tilepress_player1 == true && global.tilepress_player2 == true){
 	show_debug_message("bonked");
 	global.dooropen = true;
 	show_debug_message("that bitch is open");
@@ -13,6 +13,6 @@ if (global.tilepress_player1 = true && global.tilepress_player2 = true){
 		soundplay = false;
 }*/
 
-if (global.door1_active = true && global.door2_active = true){
+if (global.door1_active == true && global.door2_active == true){
 	room_goto_next();
 }
