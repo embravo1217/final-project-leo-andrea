@@ -1,7 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-
 /*
 3 pressure plates
 on left side: -> lowest to highest
@@ -14,5 +10,5 @@ left_active = true;
 	instance_destroy (obj_walldoor);
 	}
 }
-
 */
+
