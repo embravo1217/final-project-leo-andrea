@@ -12,3 +12,6 @@ left_active = true;
 }
 */
 
+if (global.leftcroc_active = true && global.rightcroc_active = true){
+	//instance_destroy (obj_walldoor);
+}
