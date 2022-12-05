@@ -5,6 +5,14 @@ hspeed = 0;
 var prev_x = x;
 var prev_y = y;
 
+//interacting with bookshelf
+if(collision_circle(x,y+10,50,obj_bookshelf_shake,false,false) and (bookshelf_interact == false) and (keyboard_check_pressed(vk_space))){
+	bookshelf_interact = true;
+	show_debug_message("interacted with bookshelf");
+}
+else{
+	bookshelf_interact = false;
+}
 
 //storing x and y of this object
 global.player1_x = x;

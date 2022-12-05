@@ -7,6 +7,20 @@ global.player2_x = x;
 global.player2_y = y;
 
 
+//interacting with bookshelf
+if(collision_circle(x,y+10,50,obj_bookshelf_shake,false,false) and (bookshelf_interact == false) and (keyboard_check_pressed(vk_space))){
+	bookshelf_interact = true;
+
+	show_debug_message("interacted with bookshelf");
+}
+else{
+	bookshelf_interact = false;
+}
+if(bookshelf_interact == true){obj_bookshelf_shake.sprite_index = spr_bookshelf;}
+
+//when book falling off bookshelf animation ends, create obj on floor
+
+
 //picking up object (wip code)
 if(collision_circle(x,y,20,obj_object,false,false) and (obj_picked_up2 == false) and (keyboard_check_pressed(vk_space))){
 	obj_picked_up2 = true;
