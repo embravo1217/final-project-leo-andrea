@@ -33,6 +33,7 @@
     {"id":{"name":"obj_object","path":"objects/obj_object/obj_object.yy",},"order":4,},
     {"id":{"name":"sound_wrong","path":"sounds/sound_wrong/sound_wrong.yy",},"order":0,},
     {"id":{"name":"obj_rightroom2pressplate3","path":"objects/obj_rightroom2pressplate3/obj_rightroom2pressplate3.yy",},"order":5,},
+    {"id":{"name":"obj_walldoor","path":"objects/obj_walldoor/obj_walldoor.yy",},"order":23,},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"order":11,},
     {"id":{"name":"obj_leftroom2book1","path":"objects/obj_leftroom2book1/obj_leftroom2book1.yy",},"order":1,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":2,},
