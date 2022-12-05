@@ -11,6 +11,9 @@ left_active = true;
 	}
 }
 */
+if (global.leftbook1correct = true && global.leftbook2correct = true && global.leftbook3correct = true){
+	global.leftcroc_active = true;
+}
 
 if (global.leftcroc_active = true && global.rightcroc_active = true){
 	//instance_destroy (obj_walldoor);
