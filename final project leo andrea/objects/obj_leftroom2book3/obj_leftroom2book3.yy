@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_leftroom2book2",
+  "name": "obj_leftroom2book3",
   "spriteId": {
     "name": "spr_object_placeholder",
     "path": "sprites/spr_object_placeholder/spr_object_placeholder.yy",

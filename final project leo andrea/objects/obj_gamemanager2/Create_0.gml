@@ -6,6 +6,10 @@ global.leftbook1correct = false;
 global.leftbook2correct = false;
 global.leftbook3correct = false;
 
+global.rightbook1correct = false;
+global.rightbook2correct = false;
+global.rightbook3correct = false;
+
 global.player1_x = x;
 global.player1_y = y;
 

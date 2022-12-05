@@ -15,6 +15,10 @@ if (global.leftbook1correct = true && global.leftbook2correct = true && global.l
 	global.leftcroc_active = true;
 }
 
+if (global.rightbook1correct = true && global.rightbook2correct = true && global.rightbook3correct = true){
+	global.rightcroc_active = true;
+}
+
 if (global.leftcroc_active = true && global.rightcroc_active = true){
 	//instance_destroy (obj_walldoor);
 }
