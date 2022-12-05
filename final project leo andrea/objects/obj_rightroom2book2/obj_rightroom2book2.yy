@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_rightroom2book2",
   "spriteId": {
-    "name": "spr_object_placeholder",
-    "path": "sprites/spr_object_placeholder/spr_object_placeholder.yy",
+    "name": "spr_book2",
+    "path": "sprites/spr_book2/spr_book2.yy",
   },
   "solid": false,
   "visible": true,
