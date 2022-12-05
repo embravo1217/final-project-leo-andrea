@@ -6,10 +6,12 @@
     {"id":{"name":"spr_book2","path":"sprites/spr_book2/spr_book2.yy",},"order":15,},
     {"id":{"name":"obj_doortile1","path":"objects/obj_doortile1/obj_doortile1.yy",},"order":10,},
     {"id":{"name":"obj_doortile2","path":"objects/obj_doortile2/obj_doortile2.yy",},"order":16,},
+    {"id":{"name":"spr_bookshelf_fall","path":"sprites/spr_bookshelf_fall/spr_bookshelf_fall.yy",},"order":19,},
     {"id":{"name":"obj_gate","path":"objects/obj_gate/obj_gate.yy",},"order":13,},
     {"id":{"name":"spr_pressureplate_down","path":"sprites/spr_pressureplate_down/spr_pressureplate_down.yy",},"order":8,},
     {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},"order":10,},
     {"id":{"name":"tempplayer2sprit","path":"sprites/tempplayer2sprit/tempplayer2sprit.yy",},"order":1,},
+    {"id":{"name":"spr_fallen_bookshelf","path":"sprites/spr_fallen_bookshelf/spr_fallen_bookshelf.yy",},"order":20,},
     {"id":{"name":"obj_leftroom2pressplate3","path":"objects/obj_leftroom2pressplate3/obj_leftroom2pressplate3.yy",},"order":5,},
     {"id":{"name":"obj_rightroom2book3","path":"objects/obj_rightroom2book3/obj_rightroom2book3.yy",},"order":3,},
     {"id":{"name":"puzzle1","path":"rooms/puzzle1/puzzle1.yy",},"order":4,},
@@ -104,12 +106,12 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"obj_surface_views.object.gmx","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.8.1.37",
+    "IDEVersion": "2022.9.1.51",
   },
 }
