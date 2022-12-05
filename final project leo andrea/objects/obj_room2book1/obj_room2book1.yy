@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_room2book1",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_object_placeholder",
+    "path": "sprites/spr_object_placeholder/spr_object_placeholder.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -25,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "puzzle1 pressure puzzle objs",
+    "path": "folders/Objects/puzzle1 pressure puzzle objs.yy",
   },
 }
