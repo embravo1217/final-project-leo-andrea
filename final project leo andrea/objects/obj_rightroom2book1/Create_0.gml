@@ -1,0 +1,1 @@
+book_picked_up = false;

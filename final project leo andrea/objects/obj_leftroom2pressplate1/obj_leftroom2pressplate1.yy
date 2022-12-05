@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "puzzle1 pressure puzzle objs",
-    "path": "folders/Objects/puzzle1 pressure puzzle objs.yy",
+    "name": "puzzle1 left pressure puzzle objs",
+    "path": "folders/Objects/puzzle1 left pressure puzzle objs.yy",
   },
 }

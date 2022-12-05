@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_leftroom2book3",
+  "name": "obj_rightroom2book2",
   "spriteId": {
     "name": "spr_object_placeholder",
     "path": "sprites/spr_object_placeholder/spr_object_placeholder.yy",
@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "puzzle1 left pressure puzzle objs",
-    "path": "folders/Objects/puzzle1 left pressure puzzle objs.yy",
+    "name": "puzzle1 right pressure puzzle objs",
+    "path": "folders/Objects/puzzle1 right pressure puzzle objs.yy",
   },
 }
