@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_player1",
   "spriteId": {
-    "name": "spr_player1beta",
-    "path": "sprites/spr_player1beta/spr_player1beta.yy",
+    "name": "spr_player1_idle",
+    "path": "sprites/spr_player1_idle/spr_player1_idle.yy",
   },
   "solid": false,
   "visible": true,

@@ -6,6 +6,60 @@ hspeed = 0;
 global.player2_x = x;
 global.player2_y = y;
 
+var face_up = false;
+var face_right = false;
+var face_left = false;
+var face_idle = false;
+
+
+//basic movement 
+if (keyboard_check(vk_up)){
+	y -= walk_speed;
+	face_up = true;
+	directions = 1;
+}
+if (keyboard_check(vk_down)){
+	y += walk_speed;
+	face_idle = true;
+	directions = 2;
+}
+if (keyboard_check(vk_left)){
+	x -= walk_speed;
+	face_left = true;
+	directions = 3;
+}
+if (keyboard_check(vk_right)){
+	x += walk_speed;
+	face_right = true;
+	directions = 4;
+}
+
+//walking animations
+if (face_up){
+	sprite_index = spr_player2_up_walk;
+}
+else if(face_idle){
+	sprite_index = spr_player2_down_walk;
+}
+else if(face_left){
+	sprite_index = spr_player2_left_walk; 
+}
+else if(face_right){
+	sprite_index = spr_player2_right_walk;
+}
+else if (directions == 1){
+	sprite_index = spr_player2_up; 
+}
+else if (directions == 2){
+	sprite_index = spr_player2_idle;
+}
+else if (directions == 3){
+	sprite_index = spr_player2_left;
+}
+else if (directions == 4){
+	sprite_index = spr_player2_right;
+}
+
 
 //interacting with bookshelf
 if(collision_circle(x,y+10,50,obj_bookshelf_shake,false,false) and (bookshelf_interact == false) and (keyboard_check_pressed(vk_space))){
@@ -37,29 +91,29 @@ if(obj_picked_up2 == true){
 	obj_object.y = global.player2_y - 10;
 }
 
-if global.playerPause == false {
-    //movement up, down, left, and right respectively, plus collision with the wall object
-    if (keyboard_check(vk_up)) {
-        vspeed = -playerspeed;
-        //sprite_index = spr_playerwalkback;
-        //image_xscale = 1;
-    }
-    if (keyboard_check(vk_down)) {
-        vspeed = playerspeed;
-        //sprite_index = spr_playerwalkfront;
-        //image_xscale = 1;
-    }
-    if (keyboard_check(vk_left)) {
-        hspeed = -playerspeed;
-        //sprite_index = spr_playerwalkfleft;
-        //image_xscale = 1;
-    }
-    if (keyboard_check(vk_right)) {
-        hspeed = playerspeed;
-        //sprite_index = spr_playerwalkfright;
-        //image_xscale = 1;
-    }
-}
+//if global.playerPause == false {
+//    //movement up, down, left, and right respectively, plus collision with the wall object
+//    if (keyboard_check(vk_up)) {
+//        vspeed = -playerspeed;
+//        //sprite_index = spr_playerwalkback;
+//        //image_xscale = 1;
+//    }
+//    if (keyboard_check(vk_down)) {
+//        vspeed = playerspeed;
+//        //sprite_index = spr_playerwalkfront;
+//        //image_xscale = 1;
+//    }
+//    if (keyboard_check(vk_left)) {
+//        hspeed = -playerspeed;
+//        //sprite_index = spr_playerwalkfleft;
+//        //image_xscale = 1;
+//    }
+//    if (keyboard_check(vk_right)) {
+//        hspeed = playerspeed;
+//        //sprite_index = spr_playerwalkfright;
+//        //image_xscale = 1;
+//    }
+//}
 
 //camera following the player
 
