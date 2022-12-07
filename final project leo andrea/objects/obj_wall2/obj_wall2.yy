@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_walldoor",
+  "name": "obj_wall2",
   "spriteId": {
     "name": "spr_wall2",
     "path": "sprites/spr_wall2/spr_wall2.yy",
