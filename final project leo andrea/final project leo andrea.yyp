@@ -82,6 +82,7 @@
     {"id":{"name":"spr_player1beta","path":"sprites/spr_player1beta/spr_player1beta.yy",},"order":0,},
     {"id":{"name":"obj_alligator","path":"objects/obj_alligator/obj_alligator.yy",},"order":27,},
     {"id":{"name":"spr_alligator","path":"sprites/spr_alligator/spr_alligator.yy",},"order":47,},
+    {"id":{"name":"sd_bookshelf","path":"sounds/sd_bookshelf/sd_bookshelf.yy",},"order":8,},
     {"id":{"name":"sd_plate","path":"sounds/sd_plate/sd_plate.yy",},"order":5,},
     {"id":{"name":"spr_player1_up","path":"sprites/spr_player1_up/spr_player1_up.yy",},"order":31,},
     {"id":{"name":"spr_player1_down_walk","path":"sprites/spr_player1_down_walk/spr_player1_down_walk.yy",},"order":35,},

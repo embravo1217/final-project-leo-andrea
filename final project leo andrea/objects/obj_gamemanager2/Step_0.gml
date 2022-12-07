@@ -29,9 +29,9 @@ if (global.leftcroc_active == true and global.rightcroc_active == true){
 
 if (global.tilepress_bookleft == true and global.tilepress_bookright == true and global.tileepress_player1 == true and global.tilepress_player2 == true){
 	global.dooropen = true
-	//if !audio_is_playing(sd_door_unlock){
-	//	audio_play_sound(sd_door_unlock,1,0);
-	//}
+	if !audio_is_playing(sd_door_unlock){
+		audio_play_sound(sd_door_unlock,1,0);
+	}
 }
 
 if (global.door1_active == true and global.door2_active == true){
