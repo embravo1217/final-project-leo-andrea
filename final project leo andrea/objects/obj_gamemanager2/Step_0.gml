@@ -20,7 +20,10 @@ if (global.rightbook1correct == true && global.rightbook2correct == true && glob
 }
 
 if (global.leftcroc_active == true && global.rightcroc_active == true){
-	audio_play_sound(sound_correct, 1, 0);
+	if (touching = false){
+		audio_play_sound(sound_correct, 1,0);
+		touching = true;
+	}
 	instance_destroy (obj_walldoor);
 }
 

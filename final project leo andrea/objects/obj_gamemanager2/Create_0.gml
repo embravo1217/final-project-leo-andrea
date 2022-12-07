@@ -22,4 +22,6 @@ global.tilepress_bookright = false;
 global.tilepress_player1 = false;
 global.tilepress_player2 = false;
 
+touching = true;
+
 audio_play_sound(sound_bgm,1,1);
