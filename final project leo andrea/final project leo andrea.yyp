@@ -25,7 +25,7 @@
     {"id":{"name":"spr_book3","path":"sprites/spr_book3/spr_book3.yy",},"order":16,},
     {"id":{"name":"spr_player2_up","path":"sprites/spr_player2_up/spr_player2_up.yy",},"order":32,},
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"order":0,},
-    {"id":{"name":"spr_icetilepressed","path":"sprites/spr_icetilepressed/spr_icetilepressed.yy",},"order":26,},
+    {"id":{"name":"spr_tilepressed","path":"sprites/spr_tilepressed/spr_tilepressed.yy",},"order":26,},
     {"id":{"name":"sound_pickup","path":"sounds/sound_pickup/sound_pickup.yy",},"order":4,},
     {"id":{"name":"obj_leftroom2pressplate2","path":"objects/obj_leftroom2pressplate2/obj_leftroom2pressplate2.yy",},"order":3,},
     {"id":{"name":"obj_leftroom2pressplate1","path":"objects/obj_leftroom2pressplate1/obj_leftroom2pressplate1.yy",},"order":2,},
@@ -133,12 +133,12 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"obj_surface_views.object.gmx","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.8.1.37",
   },
 }
