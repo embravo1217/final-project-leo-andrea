@@ -62,7 +62,7 @@ else if (directions == 4){
 
 
 //interacting with bookshelf
-if(collision_circle(x,y+10,50,obj_bookshelf_shake,false,false) and (bookshelf_interact == false) and (keyboard_check_pressed(vk_space))){
+if(collision_circle(x,y+20,50,obj_bookshelf_shake,false,false) and (bookshelf_interact == false) and (keyboard_check_pressed(vk_rshift))){
 	bookshelf_interact = true;
 
 	show_debug_message("interacted with bookshelf");
@@ -70,7 +70,15 @@ if(collision_circle(x,y+10,50,obj_bookshelf_shake,false,false) and (bookshelf_in
 else{
 	bookshelf_interact = false;
 }
-if(bookshelf_interact == true){obj_bookshelf_shake.sprite_index = spr_bookshelf;}
+if(bookshelf_interact == true){
+	obj_bookshelf_shake.sprite_index = spr_bookshelf;
+	instance_activate_object(obj_leftroom2book1);
+	instance_activate_object(obj_leftroom2book2);
+	instance_activate_object(obj_leftroom2book3);
+	instance_activate_object(obj_rightroom2book1);
+	instance_activate_object(obj_rightroom2book2);
+	instance_activate_object(obj_rightroom2book3);
+	}
 
 //when book falling off bookshelf animation ends, create obj on floor
 
