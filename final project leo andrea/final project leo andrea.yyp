@@ -34,6 +34,7 @@
     {"id":{"name":"spr_tutorialgate","path":"sprites/spr_tutorialgate/spr_tutorialgate.yy",},"order":44,},
     {"id":{"name":"spr_player1_idle","path":"sprites/spr_player1_idle/spr_player1_idle.yy",},"order":21,},
     {"id":{"name":"sound_correct","path":"sounds/sound_correct/sound_correct.yy",},"order":1,},
+    {"id":{"name":"meemoo","path":"objects/meemoo/meemoo.yy",},"order":28,},
     {"id":{"name":"spr_player2_left_walk","path":"sprites/spr_player2_left_walk/spr_player2_left_walk.yy",},"order":27,},
     {"id":{"name":"obj_rightroom2book2","path":"objects/obj_rightroom2book2/obj_rightroom2book2.yy",},"order":2,},
     {"id":{"name":"spr_TITLE","path":"sprites/spr_TITLE/spr_TITLE.yy",},"order":48,},
@@ -112,9 +113,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},},
     {"roomId":{"name":"title","path":"rooms/title/title.yy",},},
     {"roomId":{"name":"puzzle1","path":"rooms/puzzle1/puzzle1.yy",},},
+    {"roomId":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},},
     {"roomId":{"name":"endscreen","path":"rooms/endscreen/endscreen.yy",},},
   ],
   "Folders": [
@@ -139,12 +140,12 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"obj_surface_views.object.gmx","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.8.1.37",
   },
 }
