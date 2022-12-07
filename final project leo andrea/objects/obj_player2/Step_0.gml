@@ -63,7 +63,7 @@ else if (directions == 4){
 
 
 //interacting with bookshelf
-if(collision_circle(x,y+20,50,obj_bookshelf_shake,false,false) and (bookshelf_interact == false) and (keyboard_check_pressed(vk_rshift))){
+if(collision_circle(x,y,100,obj_bookshelf_shake,false,false) and (bookshelf_interact == false) and (keyboard_check_pressed(vk_rshift))){
 	bookshelf_interact = true;
 
 	show_debug_message("interacted with bookshelf");
