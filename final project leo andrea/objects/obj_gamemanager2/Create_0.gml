@@ -16,9 +16,10 @@ global.player1_y = y;
 global.player2_x = x;
 global.player2_y = y;
 
-global.allpressed = false;
+global.tilepress_bookleft = false;
+global.tilepress_bookright = false;
 
-left_tiles = ds_list_create;
-right_tiles = ds_list_create;
+global.tilepress_player1 = false;
+global.tilepress_player2 = false;
 
 audio_play_sound(sound_bgm,1,1);

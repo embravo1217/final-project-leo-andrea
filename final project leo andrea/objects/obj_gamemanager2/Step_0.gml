@@ -24,6 +24,14 @@ if (global.leftcroc_active == true && global.rightcroc_active == true){
 	instance_destroy (obj_walldoor);
 }
 
+if (global.tilepress_bookleft = true & global.tilepress_bookright = true & global.tilepress_player1 = true & global.tilepress_player2 = true){
+	global.dooropen = true
+}
+
+if (global.door1_active == true && global.door2_active == true){
+	room_goto_next();
+}
+
 /*for (i = 0; i < 9; i+=1){
 	var lefttiles = obj_icetile;
 	ds_list_add(left_tiles, lefttiles);
