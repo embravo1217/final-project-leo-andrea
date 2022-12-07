@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_title",
+  "name": "obj_end",
   "spriteId": {
-    "name": "spr_TITLE",
-    "path": "sprites/spr_TITLE/spr_TITLE.yy",
+    "name": "spr_endscreen",
+    "path": "sprites/spr_endscreen/spr_endscreen.yy",
   },
   "solid": false,
   "visible": true,
