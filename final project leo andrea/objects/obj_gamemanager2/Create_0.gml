@@ -15,3 +15,8 @@ global.player1_y = y;
 
 global.player2_x = x;
 global.player2_y = y;
+
+global.allpressed = false;
+
+left_tiles = ds_list_create;
+right_tiles = ds_list_create;
