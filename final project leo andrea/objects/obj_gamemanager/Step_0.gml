@@ -1,4 +1,4 @@
-if (global.tilepress_player1 == true && global.tilepress_player2 == true){
+if (global.tilepress_player1 == true and global.tilepress_player2 == true){
 	show_debug_message("bonked");
 	global.dooropen = true;
 	show_debug_message("that bitch is open");

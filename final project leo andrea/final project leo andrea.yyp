@@ -16,6 +16,7 @@
     {"id":{"name":"tempplayer2sprit","path":"sprites/tempplayer2sprit/tempplayer2sprit.yy",},"order":1,},
     {"id":{"name":"spr_player2_right","path":"sprites/spr_player2_right/spr_player2_right.yy",},"order":40,},
     {"id":{"name":"spr_player2_right_walk","path":"sprites/spr_player2_right_walk/spr_player2_right_walk.yy",},"order":28,},
+    {"id":{"name":"sd_door_unlock","path":"sounds/sd_door_unlock/sd_door_unlock.yy",},"order":7,},
     {"id":{"name":"spr_fallen_bookshelf","path":"sprites/spr_fallen_bookshelf/spr_fallen_bookshelf.yy",},"order":20,},
     {"id":{"name":"obj_leftroom2pressplate3","path":"objects/obj_leftroom2pressplate3/obj_leftroom2pressplate3.yy",},"order":5,},
     {"id":{"name":"obj_rightroom2book3","path":"objects/obj_rightroom2book3/obj_rightroom2book3.yy",},"order":3,},
@@ -57,6 +58,7 @@
     {"id":{"name":"spr_player1_right","path":"sprites/spr_player1_right/spr_player1_right.yy",},"order":39,},
     {"id":{"name":"spr_floor40","path":"sprites/spr_floor40/spr_floor40.yy",},"order":42,},
     {"id":{"name":"obj_pressureplate","path":"objects/obj_pressureplate/obj_pressureplate.yy",},"order":9,},
+    {"id":{"name":"obj_door_tutorial","path":"objects/obj_door_tutorial/obj_door_tutorial.yy",},"order":33,},
     {"id":{"name":"spr_bookshelf_bookfall","path":"sprites/spr_bookshelf_bookfall/spr_bookshelf_bookfall.yy",},"order":18,},
     {"id":{"name":"spr_wall2","path":"sprites/spr_wall2/spr_wall2.yy",},"order":45,},
     {"id":{"name":"spr_player2_down","path":"sprites/spr_player2_down/spr_player2_down.yy",},"order":33,},
@@ -90,9 +92,11 @@
     {"id":{"name":"spr_bookshelf","path":"sprites/spr_bookshelf/spr_bookshelf.yy",},"order":13,},
     {"id":{"name":"spr_tutorialwall","path":"sprites/spr_tutorialwall/spr_tutorialwall.yy",},"order":43,},
     {"id":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},"order":3,},
+    {"id":{"name":"obj_doortile1_tutorial","path":"objects/obj_doortile1_tutorial/obj_doortile1_tutorial.yy",},"order":31,},
     {"id":{"name":"puzzle1","path":"rooms/puzzle1/puzzle1.yy",},"order":4,},
     {"id":{"name":"spr_pressureplate","path":"sprites/spr_pressureplate/spr_pressureplate.yy",},"order":9,},
     {"id":{"name":"obj_door2","path":"objects/obj_door2/obj_door2.yy",},"order":15,},
+    {"id":{"name":"obj_doortile2_tutorial","path":"objects/obj_doortile2_tutorial/obj_doortile2_tutorial.yy",},"order":32,},
     {"id":{"name":"obj_lol","path":"objects/obj_lol/obj_lol.yy",},"order":14,},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"order":2,},
     {"id":{"name":"spr_object_placeholder","path":"sprites/spr_object_placeholder/spr_object_placeholder.yy",},"order":3,},
@@ -142,12 +146,12 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"obj_surface_views.object.gmx","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.8.1.37",
+    "IDEVersion": "2022.9.1.51",
   },
 }

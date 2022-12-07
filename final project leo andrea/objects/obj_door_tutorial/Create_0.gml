@@ -1,0 +1,1 @@
+//global.door2_active = false;
