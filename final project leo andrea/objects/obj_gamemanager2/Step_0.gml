@@ -27,7 +27,7 @@ if (global.leftcroc_active == true && global.rightcroc_active == true){
 	instance_destroy (obj_walldoor);
 }
 
-if (global.tilepress_bookleft = true & global.tilepress_bookright = true & global.tilepress_player1 = true & global.tilepress_player2 = true){
+if (global.tilepress_bookleft = true & global.tilepress_bookright = true & global.tileepress_player1 = true & global.tilepress_player2 = true){
 	global.dooropen = true
 }
 

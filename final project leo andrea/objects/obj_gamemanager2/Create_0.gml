@@ -1,5 +1,4 @@
 global.leftcroc_active = false;
-
 global.rightcroc_active = false;
 
 global.leftbook1correct = false;
@@ -19,7 +18,7 @@ global.player2_y = y;
 global.tilepress_bookleft = false;
 global.tilepress_bookright = false;
 
-global.tilepress_player1 = false;
+global.tileepress_player1 = false;
 global.tilepress_player2 = false;
 global.dooropen = false;
 
