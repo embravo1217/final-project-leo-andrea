@@ -23,3 +23,20 @@ if (global.leftcroc_active = true && global.rightcroc_active = true){
 	audio_play_sound(sound_correct, 1, 0);
 	instance_destroy (obj_walldoor);
 }
+
+for (i = 0; i < 9; i+=1){
+	var lefttiles = obj_icetile;
+	ds_list_add(left_tiles, lefttiles);
+}
+
+for( i = 0; i <10; i++){
+	if (!left_tiles[|i].pressed){
+		show_debug_message("AHHHH");
+		//global.allpressed = false;
+	}
+}
+
+if (global.allpressed = true){
+	//door open
+}
+
