@@ -5,4 +5,6 @@ global.dooropen = false;
 
 soundplay = false;
 
-audio_play_sound(sound_bgm,1,1);
+if !audio_is_playing(sound_bgm){
+	audio_play_sound(sound_bgm,1,1);
+}
