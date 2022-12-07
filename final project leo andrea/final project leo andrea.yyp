@@ -10,6 +10,7 @@
     {"id":{"name":"spr_bookshelf_fall","path":"sprites/spr_bookshelf_fall/spr_bookshelf_fall.yy",},"order":19,},
     {"id":{"name":"obj_gate","path":"objects/obj_gate/obj_gate.yy",},"order":13,},
     {"id":{"name":"spr_pressureplate_down","path":"sprites/spr_pressureplate_down/spr_pressureplate_down.yy",},"order":8,},
+    {"id":{"name":"spr_bookshelf_fallen","path":"sprites/spr_bookshelf_fallen/spr_bookshelf_fallen.yy",},"order":46,},
     {"id":{"name":"spr_player1_up_walk","path":"sprites/spr_player1_up_walk/spr_player1_up_walk.yy",},"order":29,},
     {"id":{"name":"spr_tile","path":"sprites/spr_tile/spr_tile.yy",},"order":10,},
     {"id":{"name":"tempplayer2sprit","path":"sprites/tempplayer2sprit/tempplayer2sprit.yy",},"order":1,},

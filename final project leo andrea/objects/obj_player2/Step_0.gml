@@ -1,3 +1,4 @@
+
 //sets player default speed when at rest
 vspeed = 0;
 hspeed = 0;
@@ -71,7 +72,7 @@ else{
 	bookshelf_interact = false;
 }
 if(bookshelf_interact == true){
-	obj_bookshelf_shake.sprite_index = spr_bookshelf;
+	obj_bookshelf_shake.sprite_index = spr_bookshelf_fall;
 	instance_activate_object(obj_leftroom2book1);
 	instance_activate_object(obj_leftroom2book2);
 	instance_activate_object(obj_leftroom2book3);
@@ -79,6 +80,13 @@ if(bookshelf_interact == true){
 	instance_activate_object(obj_rightroom2book2);
 	instance_activate_object(obj_rightroom2book3);
 	}
+
+//if(obj_bookshelf_shake.sprite_index == spr_bookshelf_fall){
+//	if(image_index == image_number){
+//		image_speed = 0;
+//		//global.bookshelfState = true;
+//	}
+//}
 
 //when book falling off bookshelf animation ends, create obj on floor
 
