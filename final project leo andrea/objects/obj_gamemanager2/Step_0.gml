@@ -11,15 +11,15 @@ left_active = true;
 	}
 }
 */
-if (global.leftbook1correct == true && global.leftbook2correct == true && global.leftbook3correct == true){
+if (global.leftbook1correct == true and global.leftbook2correct == true and global.leftbook3correct == true){
 	global.leftcroc_active = true;
 }
 
-if (global.rightbook1correct == true && global.rightbook2correct == true && global.rightbook3correct == true){
+if (global.rightbook1correct == true and global.rightbook2correct == true and global.rightbook3correct == true){
 	global.rightcroc_active = true;
 }
 
-if (global.leftcroc_active == true && global.rightcroc_active == true){
+if (global.leftcroc_active == true and global.rightcroc_active == true){
 	if (touching = false){
 		audio_play_sound(sound_correct, 1,0);
 		touching = true;
@@ -27,11 +27,11 @@ if (global.leftcroc_active == true && global.rightcroc_active == true){
 	instance_destroy (obj_walldoor);
 }
 
-if (global.tilepress_bookleft == true & global.tilepress_bookright == true & global.tileepress_player1 == true & global.tilepress_player2 == true){
+if (global.tilepress_bookleft == true and global.tilepress_bookright == true and global.tileepress_player1 == true and global.tilepress_player2 == true){
 	global.dooropen = true
 }
 
-if (global.door1_active == true && global.door2_active == true){
+if (global.door1_active == true and global.door2_active == true){
 	room_goto_next();
 }
 
