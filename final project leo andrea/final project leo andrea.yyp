@@ -115,9 +115,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"puzzle1","path":"rooms/puzzle1/puzzle1.yy",},},
     {"roomId":{"name":"title","path":"rooms/title/title.yy",},},
     {"roomId":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},},
+    {"roomId":{"name":"puzzle1","path":"rooms/puzzle1/puzzle1.yy",},},
     {"roomId":{"name":"endscreen","path":"rooms/endscreen/endscreen.yy",},},
   ],
   "Folders": [
