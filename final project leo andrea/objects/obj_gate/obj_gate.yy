@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_gate",
   "spriteId": {
-    "name": "spr_wall",
-    "path": "sprites/spr_wall/spr_wall.yy",
+    "name": "spr_tutorialgate",
+    "path": "sprites/spr_tutorialgate/spr_tutorialgate.yy",
   },
   "solid": true,
   "visible": true,
