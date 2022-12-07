@@ -16,6 +16,7 @@ else{global.platepressed = false;}
 //general toggle for plate pressed
 if(global.platepressed){
 	global.walldown = true;
+	show_debug_message("aaa");
 	sprite_index = spr_pressureplate_down;
 	/*if !audio_is_playing(sd_plate)
 		{

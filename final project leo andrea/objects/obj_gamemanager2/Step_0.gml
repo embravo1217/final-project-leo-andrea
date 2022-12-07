@@ -11,15 +11,15 @@ left_active = true;
 	}
 }
 */
-if (global.leftbook1correct = true && global.leftbook2correct = true && global.leftbook3correct = true){
+if (global.leftbook1correct == true && global.leftbook2correct == true && global.leftbook3correct == true){
 	global.leftcroc_active = true;
 }
 
-if (global.rightbook1correct = true && global.rightbook2correct = true && global.rightbook3correct = true){
+if (global.rightbook1correct == true && global.rightbook2correct == true && global.rightbook3correct == true){
 	global.rightcroc_active = true;
 }
 
-if (global.leftcroc_active = true && global.rightcroc_active = true){
+if (global.leftcroc_active == true && global.rightcroc_active == true){
 	audio_play_sound(sound_correct, 1, 0);
 	instance_destroy (obj_walldoor);
 }
