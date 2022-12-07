@@ -77,6 +77,7 @@
     {"id":{"name":"obj_bookshelf_idle","path":"objects/obj_bookshelf_idle/obj_bookshelf_idle.yy",},"order":17,},
     {"id":{"name":"sound_walk","path":"sounds/sound_walk/sound_walk.yy",},"order":3,},
     {"id":{"name":"spr_bookshelf","path":"sprites/spr_bookshelf/spr_bookshelf.yy",},"order":13,},
+    {"id":{"name":"spr_walltutorial","path":"sprites/spr_walltutorial/spr_walltutorial.yy",},"order":43,},
     {"id":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},"order":3,},
     {"id":{"name":"spr_pressureplate","path":"sprites/spr_pressureplate/spr_pressureplate.yy",},"order":9,},
     {"id":{"name":"obj_door2","path":"objects/obj_door2/obj_door2.yy",},"order":15,},
