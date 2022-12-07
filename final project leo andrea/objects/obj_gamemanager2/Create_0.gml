@@ -20,3 +20,5 @@ global.allpressed = false;
 
 left_tiles = ds_list_create;
 right_tiles = ds_list_create;
+
+audio_play_sound(sound_bgm,1,1);

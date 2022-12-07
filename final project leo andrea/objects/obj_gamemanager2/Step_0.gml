@@ -24,7 +24,7 @@ if (global.leftcroc_active = true && global.rightcroc_active = true){
 	instance_destroy (obj_walldoor);
 }
 
-for (i = 0; i < 9; i+=1){
+/*for (i = 0; i < 9; i+=1){
 	var lefttiles = obj_icetile;
 	ds_list_add(left_tiles, lefttiles);
 }
@@ -40,3 +40,4 @@ if (global.allpressed = true){
 	//door open
 }
 
+*/
