@@ -18,7 +18,6 @@
     {"id":{"name":"spr_fallen_bookshelf","path":"sprites/spr_fallen_bookshelf/spr_fallen_bookshelf.yy",},"order":20,},
     {"id":{"name":"obj_leftroom2pressplate3","path":"objects/obj_leftroom2pressplate3/obj_leftroom2pressplate3.yy",},"order":5,},
     {"id":{"name":"obj_rightroom2book3","path":"objects/obj_rightroom2book3/obj_rightroom2book3.yy",},"order":3,},
-    {"id":{"name":"puzzle1","path":"rooms/puzzle1/puzzle1.yy",},"order":4,},
     {"id":{"name":"obj_rightroom2book1","path":"objects/obj_rightroom2book1/obj_rightroom2book1.yy",},"order":0,},
     {"id":{"name":"obj_rightroom2pressplate2","path":"objects/obj_rightroom2pressplate2/obj_rightroom2pressplate2.yy",},"order":4,},
     {"id":{"name":"spr_bookshelf_shake","path":"sprites/spr_bookshelf_shake/spr_bookshelf_shake.yy",},"order":17,},
@@ -82,6 +81,7 @@
     {"id":{"name":"spr_bookshelf","path":"sprites/spr_bookshelf/spr_bookshelf.yy",},"order":13,},
     {"id":{"name":"spr_tutorialwall","path":"sprites/spr_tutorialwall/spr_tutorialwall.yy",},"order":43,},
     {"id":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},"order":3,},
+    {"id":{"name":"puzzle1","path":"rooms/puzzle1/puzzle1.yy",},"order":4,},
     {"id":{"name":"spr_pressureplate","path":"sprites/spr_pressureplate/spr_pressureplate.yy",},"order":9,},
     {"id":{"name":"obj_door2","path":"objects/obj_door2/obj_door2.yy",},"order":15,},
     {"id":{"name":"obj_lol","path":"objects/obj_lol/obj_lol.yy",},"order":14,},
@@ -106,10 +106,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"puzzle1","path":"rooms/puzzle1/puzzle1.yy",},},
     {"roomId":{"name":"title","path":"rooms/title/title.yy",},},
     {"roomId":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},},
     {"roomId":{"name":"endscreen","path":"rooms/endscreen/endscreen.yy",},},
+    {"roomId":{"name":"puzzle1","path":"rooms/puzzle1/puzzle1.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
@@ -133,12 +133,12 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"obj_surface_views.object.gmx","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.8.1.37",
   },
 }
